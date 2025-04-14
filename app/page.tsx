@@ -137,8 +137,16 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            Focused on creating intuitive and performant web experiences.
-            Bridging the gap between design and development.
+          Hello world! I'm Emily 👋
+          <br></br>
+          <br></br>
+          As of late:
+          <br></br>
+            - building & mentoring @ Progressive
+            <br></br>
+            - violinist in the Cleveland Women’s Orchestra 🎶
+            <br></br>
+            - graduated with honors B.S. Computer Science, Summa Cum Laude 
           </p>
         </div>
       </motion.section>
@@ -151,9 +159,9 @@ export default function Personal() {
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
           {PROJECTS.map((project) => (
             <div key={project.name} className="space-y-2">
-              <div className="relative rounded-2xl bg-zinc-50/40 p-1 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950/40 dark:ring-zinc-800/50">
+              {/* <div className="relative rounded-2xl bg-zinc-50/40 p-1 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950/40 dark:ring-zinc-800/50">
                 <ProjectVideo src={project.video} />
-              </div>
+              </div> */}
               <div className="px-1">
                 <a
                   className="font-base group relative inline-block font-[450] text-zinc-900 dark:text-zinc-50"
@@ -163,9 +171,14 @@ export default function Personal() {
                   {project.name}
                   <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 transition-all duration-200 group-hover:max-w-full"></span>
                 </a>
-                <p className="text-base text-zinc-600 dark:text-zinc-400">
+                <a className="text-base text-zinc-600 dark:text-zinc-400"
+                  href={project.link}  
+                  target="_blank"  
+                  >
+                    <br></br>
                   {project.description}
-                </p>
+                  <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 transition-all duration-200 group-hover:max-w-full"></span>
+                </a>
               </div>
             </div>
           ))}

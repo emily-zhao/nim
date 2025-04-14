@@ -29,48 +29,72 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
+    name: 'Electi.online 🗳',
     description:
-      'Advanced components and templates to craft beautiful websites.',
-    link: 'https://pro.motion-primitives.com/',
+      'HackCWRU - 1st place: Tool to visualize FEC donations to 2020 presidential election campaigns using MongoDB, Express, NodeJS, jQuery, Leaflet.JS',
+    link: 'https://devpost.com/software/electi-online',
     video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
+      'https://photos.app.goo.gl/rHsM48cgrwo845x4A',
     id: 'project1',
   },
   {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
-    link: 'https://motion-primitives.com/',
+    name: 'E-i-e.io 🧑‍🌾',
+    description: 'Boilermake - 1st place John Deere Challenge: Agricultural Simulator using React and JSX',
+    link: 'https://devpost.com/software/e-i-e-io',
     video:
       'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
     id: 'project2',
+  },
+  {
+    name: 'Cleveland Women’s Orchestra 🎻',
+    description: 'Assistant Principal Second Violin - Second-in-command of the second violin section',
+    link: 'https://www.clevelandwomensorchestra.org/',
+    video:
+      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+    id: 'project3',
   },
 ]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: 'Reglazed Studio',
-    title: 'CEO',
-    start: '2024',
+    company: 'Progressive Insurance',
+    title: 'Software Engineer',
+    start: 'Sep 2023',
     end: 'Present',
-    link: 'https://ibelick.com',
+    link: 'https://drive.google.com/file/d/1uf1Kn4ZLS90AhtV6n57ggKPDUN1UgtXj/view?usp=sharing', 
     id: 'work1',
   },
   {
-    company: 'Freelance',
-    title: 'Design Engineer',
-    start: '2022',
-    end: '2024',
-    link: 'https://ibelick.com',
+    company: 'Progressive Insurance',
+    title: 'Associate Software Engineer',
+    start: 'Jun 2022',
+    end: 'Aug 2023',
+    link: 'https://drive.google.com/file/d/1uf1Kn4ZLS90AhtV6n57ggKPDUN1UgtXj/view?usp=sharing', 
     id: 'work2',
   },
   {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
-    end: 'Present',
-    link: 'https://ibelick.com',
+    company: 'Progressive Insurance',
+    title: 'Software Engineer Intern',
+    start: 'May 2021',
+    end: 'Aug 2021',
+    link: 'https://drive.google.com/file/d/1uf1Kn4ZLS90AhtV6n57ggKPDUN1UgtXj/view?usp=sharing', 
     id: 'work3',
+  },
+  {
+    company: 'KeyBank',
+    title: 'Product Management Intern',
+    start: 'May 2020',
+    end: 'Jul 2020',
+    link: 'https://drive.google.com/file/d/1uf1Kn4ZLS90AhtV6n57ggKPDUN1UgtXj/view?usp=sharing', 
+    id: 'work4',
+  },
+  {
+    company: 'Medical Mutual',
+    title: 'Software Engineer Intern',
+    start: 'May 2019',
+    end: 'Aug 2019',
+    link: 'https://drive.google.com/file/d/1uf1Kn4ZLS90AhtV6n57ggKPDUN1UgtXj/view?usp=sharing', 
+    id: 'work5',
   },
 ]
 
@@ -100,20 +124,12 @@ export const BLOG_POSTS: BlogPost[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Github',
-    link: 'https://github.com/ibelick',
-  },
-  {
-    label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
+    link: 'https://github.com/emily-zhao',
   },
   {
     label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
-  },
-  {
-    label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    link: 'https://www.linkedin.com/in/zhao-emily/',
   },
 ]
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'emily.zhao23@email.com'
